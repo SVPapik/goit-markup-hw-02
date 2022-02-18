@@ -18,9 +18,7 @@ header {
   font-weight: bold;
   font-size: 26px;
   line-height: 31px;
-  color: #2196f3;
-  margin-top: 25px;
-  margin-left: 215px;
+  color: var(--accent-color);
 }
 .studio {
   font-family: Raleway;
@@ -29,6 +27,10 @@ header {
   font-size: 26px;
   line-height: 31px;
   color: #000000;
+}
+/* footer logo */
+.studio.foot {
+  color: #ffffff;
 }
 
 /* site-nav */
@@ -55,11 +57,22 @@ header {
 ul {
   list-style: none;
 }
+/* Take off underline from all links */
+a {
+  text-decoration: none;
+}
 
 /* Hero */
 .hero-title {
   background-color: #2f303a;
   color: #ffffff;
+}
+
+/* Button */
+.button {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  text-align: center;
 }
 
 /* Section */
@@ -73,19 +86,15 @@ ul {
 
 /* Team */
 
-/* Button */
-.button {
-  background-color: var(--accent-color);
-  color: #ffffff;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  font-family: Roboto;
+/* Footer */
+footer {
+  background-color: #2f303a;
+}
+.address {
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 30px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+address > span {
+  color: #ffffff;
 }
