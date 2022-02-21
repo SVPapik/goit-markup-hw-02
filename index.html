@@ -6,16 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студія</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 </head>
 <body>
     <header>
-        <a class="logo" href="/"> <span class="web">Web</span><span class="studio">Studio</span> </a>
+        <span class="web">Web</span><span class="studio">Studio</span>
         <nav class="site-nav">
-            <ul>
+            <ul class="nav-list">
                 <li> <a href="" class="link current">Студия</a></li>
                 <li> <a href="./portfolio.html" class="link">Портфолио</a></li>
                 <li> <a href="" class="link">Контакты</a></li>
@@ -30,6 +28,7 @@
             <button type="button" class="button">Заказать услугу</button>
         </section>
         <!-- Особливості компанії -->
+        <h2 class="invisible">features</h2>
         <section class="features">
             <ul class="features-list">
                 <li>
@@ -55,13 +54,13 @@
             <h2 class="work-title">Чем мы занимаемся</h2>
             <ul class="work-list">
                 <li>
-                    <a href=""><img src="./images/workimg1.jpg" alt="programming" width="370" height="294"></a>
+                    <img src="./images/workimg1.jpg" alt="programming" width="370" height="294">
                 </li>
                 <li>
-                    <a href=""><img src="./images/workimg2.jpg" alt="mobile-apps" width="370" height="294"></a>
+                    <img src="./images/workimg2.jpg" alt="mobile-apps" width="370" height="294">
                 </li>
                 <li>
-                    <a href=""><img src="./images/workimg3.jpg" alt="design" width="370" height="294"></a>
+                    <img src="./images/workimg3.jpg" alt="design" width="370" height="294">
                 </li>
             </ul>
         </section>
@@ -70,22 +69,22 @@
             <h2 class="team-title">Наша команда</h2>
             <ul class="team-list">
                 <li>
-                    <a href=""><img src="./images/photo1.jpg" alt="photo-Ihor-Demianenko" width="270" height="260"></a>
+                    <img src="./images/photo1.jpg" alt="photo-Ihor-Demianenko" width="270" height="260">
                     <h3 class="teammate">Игорь Демьяненко</h3>
                     <p class="job">Product Designer</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/photo2.jpg" alt="photo-Olga-Repina" width="270" height="260"></a>
+                    <img src="./images/photo2.jpg" alt="photo-Olga-Repina" width="270" height="260">
                     <h3 class="teammate">Ольга Репина</h3>
                     <p class="job">Frontend Developer</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/photo3.jpg" alt="photo-Nikolay-Tarasov" width="270" height="260"></a>
+                    <img src="./images/photo3.jpg" alt="photo-Nikolay-Tarasov" width="270" height="260">
                     <h3 class="teammate">Николай Тарасов</h3>
                     <p class="job">Marketing</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/photo4.jpg" alt="photo-Mikhail-Ermakov" width="270" height="260"></a>
+                    <img src="./images/photo4.jpg" alt="photo-Mikhail-Ermakov" width="270" height="260">
                     <h3 class="teammate">Михаил Ермаков</h3>
                     <p class="job">UI Designer</p>
                 </li>
@@ -93,12 +92,12 @@
         </section>
     </main>
     <footer>
-        <a class="logo" href="/"> <span class="web">Web</span><span class="studio foot">Studio</span> </a>
-        <address class="address">
+        <span class="web">Web</span><span class="studio foot">Studio</span>
+        <address class="addrs">
             <span> г. Киев, пр-т Леси Украинки, 26</span> <br>
-            info@example.com <br>
-            +38 099 111 11 11
-        </address>       
-    </footer>  
+            <a href="mailto:info@devstudio.com" class="contacts-link">info@devstudio.com</a> <br>
+            <a href="tel:+380961111111" class="contacts-link">+38 096 111 11 11</a>
+        </address>
+    </footer>
 </body>
 </html>

@@ -12,14 +12,11 @@ body {
   letter-spacing: 0.03em;
 }
 
-header {
-  background-color: #ffffff;
-}
 /* logo */
-.logo .web {
+.web {
   color: var(--accent-color);
 }
-.logo .studio {
+.studio {
   color: #000000;
 }
 .web,
@@ -61,11 +58,18 @@ header {
 }
 
 /* Take off dots from all ul lists */
-ul {
+.nav-list,
+.btn-list,
+.project-list,
+.features-list,
+.work-list,
+.team-list {
   list-style: none;
 }
+
 /* Take off underline from all links */
-a {
+.link,
+.contacts-link {
   text-decoration: none;
 }
 
@@ -94,6 +98,9 @@ a {
 }
 
 /* Section Features */
+.invisible {
+  color: #e5e5e5;
+}
 .title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -128,16 +135,43 @@ a {
 }
 
 /* Footer */
-footer {
-  background-color: #2f303a;
-}
-.address {
+.addrs {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-address > span {
+.addrs > span {
   color: #ffffff;
+}
+/* Portfolio */
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+}
+
+.filter-btn:focus,
+.filter-btn:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* PROJECTS */
+.project-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
 }
