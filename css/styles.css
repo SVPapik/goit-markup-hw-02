@@ -86,7 +86,7 @@ body {
 }
 
 /* Button */
-.button {
+.btn {
   background-color: var(--accent-color);
   color: #ffffff;
   text-align: center;
@@ -95,6 +95,11 @@ body {
   line-height: 1.88;
   align-items: center;
   letter-spacing: 0.06em;
+}
+
+.btn,
+.filter-btn {
+  cursor: pointer;
 }
 
 /* Section Features */
