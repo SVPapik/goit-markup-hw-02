@@ -161,6 +161,11 @@ body {
   color: var(--background-color);
 }
 
+.location {
+  color: var(--background-color);
+  text-decoration: none;
+}
+
 /* Portfolio */
 .filter-btn {
   font-weight: 500;
